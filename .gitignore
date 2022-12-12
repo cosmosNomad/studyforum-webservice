@@ -1,3 +1,6 @@
 # Project exclude paths
 .gradle
 .idea
+HelloController.java
+HelloControllerTest.java
+resources/templates/test-boostrap/
