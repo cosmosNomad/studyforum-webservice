@@ -23,6 +23,9 @@ dependencies {
     // devtools
     implementation('org.springframework.boot:spring-boot-devtools')
 
+    // oauth
+    // implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
     // lombok
     implementation('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')

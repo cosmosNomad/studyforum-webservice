@@ -3,4 +3,9 @@
 .idea
 HelloController.java
 HelloControllerTest.java
-resources/templates/test-boostrap/
+
+#test file
+src/main/resources/templates/test-bootstrap/
+
+#oauth
+application-oauth.properties

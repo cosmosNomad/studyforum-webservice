@@ -25,15 +25,30 @@
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">My study</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Discussions</a></li>
             <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
         </ul>
 
         <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
+            <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='/login/signInPage'">Login</button>
+            <button type="button" class="btn btn-primary" onclick="location.href='/login/registerPage'">Sign-up</button>
         </div>
+
+        <!-- oauth2 나중에 구현 -->
+        <!--<div class="col-md-3 text-end">
+            {{#userName}}
+                Logged in as: <span id="user">{{userName}}</span>
+                <a href="/logout" class="btn btn-info active" role="button">Logout</a>
+            {{/userName}}
+            {{^userName}}
+                <a href="/oauth2/authorization/google" class="btn btn-warning" role="button">Google Login</a>
+                <a href="/oauth2/authorization/naver" class="btn btn-success" role="button">Naver Login</a>
+
+                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='/login/signInPage'">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            {{/userName}}
+        </div>-->
+
     </header>
 </div>
