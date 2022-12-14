@@ -17,4 +17,10 @@ public class LoginController {
     public String registerPage() {
         return "/login/register";
     }
+
+    @GetMapping("/login/findPasswordPage")
+    public String findPasswordPage() {
+        return "/login/find-password";
+    }
+
 }
